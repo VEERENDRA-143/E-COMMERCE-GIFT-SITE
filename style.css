@@ -1,0 +1,641 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import "https://unpkg.com/open-props";
+@import "https://unpkg.com/open-props/normalize.min.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Fugaz+One&family=Great+Vibes&family=Kaushan+Script&family=Playfair+Display:ital,wght@1,800&family=Satisfy&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Great+Vibes&family=Kaushan+Script&family=Playfair+Display:ital,wght@1,800&family=Satisfy&family=Yellowtail&display=swap');
+
+*{
+    margin: 0px;
+}
+body{
+    background-image: linear-gradient(50deg,rgba(146, 4, 118, 0.361),rgba(187, 99, 180, 0.274),pink,rgb(215, 141, 154)) !important;
+}
+.bg_image{
+    margin: 0px;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+
+   /*-webkit-mask-image: linear-gradient(pink,transparent);
+    mask-image: linear-gradient(pink, transparent);
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-position: left top !important;
+   mask-position: left top !important;*/
+}
+.col-lg-12{
+    color: rgb(12, 11, 12);
+    font-family: 'lucida';
+    font-size: 20px;
+    background-color: rgba(132, 230, 245, 0.605);
+}
+
+.col-lg-12 li{
+    margin-top: 15px;
+    list-style-type: none;
+    float: left;
+    padding-left: 100px;
+}
+.col-lg-12 li:nth-child(2) input{
+    color: rgb(8, 8, 8);
+    font-family: 'arial';
+    font-size: 15px;
+    margin-left: 30px;
+    border: 3px solid black;
+    border-radius: 3px;
+    width: 30px;
+    background-color: rgba(239, 236, 236, 0.733);
+
+   /* border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px ;*/
+}
+
+.col-lg-12 li:nth-child(2) input:hover{
+    width: 200px;
+    background-color: rgba(244, 200, 184, 0);
+   /* border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px ;*/
+}
+.col-lg-12 li:nth-child(2) input i{
+    float: left;
+}
+.col-lg-12 li button{
+    border-radius: 20px;
+    background-color: rgba(255, 192, 203, 0.443);
+    padding-left: 30px;
+}
+
+/* ribbon2*/
+.col-md-12{
+    background-color: rgba(7, 150, 93, 0.963);
+}
+.col-md-12 ul li{
+    list-style-type: none;
+    float: left;
+    padding-left: 20px;
+}
+.col-md-12 ul li button{
+    background-color: transparent;
+    border-style: none;
+    font-size: large;
+}
+
+/*ribbon3*/
+.col-lg-10{
+    margin-bottom: 5px;
+   /* border: 2px solid black;*/
+    background-color: rgba(158, 157, 157, 0.055);
+    padding-bottom: 10px;
+    color: rgb(255, 128, 0) !important;
+}
+.col-lg-10 ul li{
+    list-style-type: none;
+    float: left;
+    font-size: 15px;
+    padding-left: 100px;
+    color: pink;
+    background-color: rgba(240, 248, 255, 0.142);
+}
+.col-lg-10 ul li h5{
+    font-style: italic;
+    color: red;
+}
+.col-lg-10 ul li:hover{
+    size:20px;
+    color: red;
+}
+/*ribbon4*/
+.col-sm-12{
+    background-color: rgba(37, 38, 37, 0.632);
+    color: rgba(247, 247, 243, 0.763);
+    font-size: 20px;
+    padding-top: 15px;
+    align-items: center;
+    margin-top: 20px;
+}
+.col-sm-12:hover{
+    background-color: rgba(255, 166, 0, 0.484);
+    color: black;
+    transition-duration: .3s;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* image ribboon*/
+.image_wrap{
+    background-color: rgba(169, 172, 172, 0.288);
+}
+.image_wrap .col-md-2{
+    margin-top: 10px;
+    margin-left: 0PX;
+}
+.image_wrap .col-md-2 .caption{
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 15px;
+    justify-content: center;
+    text-align: center;
+}
+/*.image_wrap .col-md-2:hover{
+    background-color: rgba(203, 202, 203, 0.381);
+    border-radius: 100%;
+}*/
+
+
+/* image slider*/
+#carouselExampleIndicators{
+    margin-top: 30px;
+    padding-top: 20px;
+}
+.carouselcontinar{
+    margin-top: 30px;
+    background-color: rgba(242, 162, 175, 0.468);
+}
+.carouselcontinar .textbox{
+    width: 420px;
+    height: 300px;
+    /*border: 2px solid black;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;*/
+    border-radius: 50px;
+    background-image: linear-gradient(120deg,rgba(115, 116, 116, 0.45),rgba(182, 182, 179, 0.454));
+}
+.carouselcontinar .textbox h1{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(16, 16, 15);
+}
+.carouselcontinar .textbox p{
+    font-size: 20px;
+    color: rgba(236, 248, 211, 0.491);
+}
+.carouselcontinar .textbox button{
+    list-style-type: none;
+    padding-left: 30px;
+    text-align: center;
+    background-color: rgba(245, 6, 165, 0.459);
+    padding-top: 8px;
+    border-radius: 10px;
+    
+}
+.below_slider{
+    margin-top: 20px;
+    align-items: center;
+}
+.below_slider .col-md-3 img:hover{
+    width: 83%;
+    height: 63%;
+    transition-duration: 1s;
+}
+.col-12{
+    margin-left: 40%;
+}
+/* filter section*/
+.my-5 .col-4{
+    background: hsl(0, 0, 94%);
+}
+.my-5 .col-md-3 .item .card img{
+    width: 500px;
+    height: 500px;
+}
+/*text selling area*/
+
+.textsel p{
+    
+    font-size: 50px;
+    font-weight: bolder;
+
+}
+
+.col-md-3:hover{
+    
+    background-color: rgba(138, 137, 136, 0.144);
+}
+
+.scrollport {
+    /*-webkit-mask-image: linear-gradient(to right, #0000, #000, #000, #0000);*/
+
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    overscroll-behavior-x: contain;
+    display: flex;
+    gap: var(--size-10);
+    align-items: start;
+    padding: var(--size-10);
+}
+
+.scrollport > div {
+    block-size: var(--size-15);
+    aspect-ratio: var(--ratio-square);
+    background-color: var(--surface-2);
+    border-radius: var(--radius-3);
+    box-shadow: var(--shadow-4);
+}
+
+.rating-box {
+    margin-left: 45%;
+    position:relative;
+    vertical-align: middle;
+    font-size: 3em;
+    font-family: FontAwesome;
+    display:inline-block;
+    color: #15bd47;
+  }
+.rating-box:before{
+    content: "\f006 \f006 \f006 \f006 \f006";
+}
+.rating-box .rating {
+    position: absolute;
+    left:0;
+    top:0;
+    white-space:nowrap;
+    overflow:hidden;
+    color: #16b936;
+}
+.rating-box .rating:before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+}
+
+
+.about_company a .btn{
+    margin-top: 20px;
+}
+
+.about_company a .btn :hover{
+    color: rgb(27, 113, 1);
+}
+
+.About_LOOKFANTASTIC a .btn{
+    margin-top: 25px;
+
+}
+
+.Stores_and_Salons a .btn{
+    margin-top: 25px;
+}
+
+.thg_para{
+    margin-left: 50px;
+    font-size: 15px;
+    font-display:50%;
+}
+
+.payments ul{
+
+    margin-top: 10px;
+    list-style-type: none;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.payments ul li{
+    margin-top: 15px;
+    float: left;
+    padding-left: 10px;
+}
+.payments ul li img{
+    float: left;
+    
+    width: 50px;
+    height: 40px;
+
+}
+
+/*@media */
+@media only screen and (max-width:1286px){
+    .col-md-12 ul {
+        list-style-type: none;
+    }
+    .col-md-12 ul li button{
+        font-size: 13px;
+    }
+    .col-lg-10 .ribbon3 ul{
+        list-style-type: none;
+    }
+    .col-lg-10 .ribbon3 ul li{
+        margin-top: 7px;
+    }
+    .col-lg-10 .ribbon3 ul li h5{
+        font-size: 10px;
+    }
+    .textsel p{
+        margin-left: -10%;
+    }
+    .img_typs .card_text h1{
+        font-size: 20px;
+    }
+    .img_typs .card_text p{
+        font-size: 10px;
+    }
+    .images .varsac p{
+        justify-content: center;
+    }
+    .images .varsac button{
+        font-size: 10px;
+        padding-bottom: 15px;
+    }
+    .makeup .prewage button{
+        font-size: 10px;
+    }
+    .makeup2 .brushes p{
+        font-size: 10px;
+    }
+    .makeup2 .brushes button{
+        font-size: 9px;
+    }
+    .skincare .skincare_txt h2{
+        font-size: 5px;
+    }
+    .skincare .skincare_txt button{
+        font-size: 5px;
+    }
+        
+}
+@media only screen and (max-width:1280px){
+    .skincare .skincare_txt button{
+        font-size: 15px;
+    }
+    .skincare2 .serum p{
+        font-size: 5px;
+        height: -40%;
+    }
+    .col-12 .show_them{
+        font-size: 50px;
+    }
+    .col-sm-6{
+        margin-top: 20px;
+    }
+    .about_company button{
+        font-size: 20px;
+    }
+}
+
+
+@media only screen and (max-width:1264px){
+    .col-lg-12 .ribbon1 ul{
+        margin: 0px;
+    }
+    .col-lg-12 .ribbon1 ul li{
+        list-style-type: none;
+        font-size: 15px;
+    }
+    .col-lg-12 .ribbon1 ul li:nth-child(1){
+        margin-left: -8%;
+        font-weight: bolder;
+        font-family: 'fantasy';
+    }
+    .col-lg-12 .ribbon1 ul li:nth-child(2){
+        margin-top: 20px;
+        margin-left: -7%;
+    }
+    
+    .col-md-12{
+        height: 30px !important;
+        background-color: rgba(0, 0, 0, 0.479);
+
+    }
+    .col-md-12 ul li{
+        justify-content: center;
+        align-items: center;
+        margin-top: 3px;
+    }
+    .img_typs .col-2{
+        height: 50% !important;
+    }
+    .images .varsac h1{
+        font-size: 20px;
+    }
+    .images .varsac button{
+        font-size: 13px;
+    }
+    .makeup2 .brushes h1{
+        margin-top: 30%;
+    }
+    .makeup2 .brushes h6{
+        font-size: 15px;
+    }
+    .makeup2 .brushes h6{
+        padding-top: 30px;
+    }
+    
+    .skincare .skincare_txt h2{
+        font-size: 10px;
+    }
+    .skincare .skincare_txt button{
+        font-size: 20px;
+    }
+   
+    .skincare2 .serum h2{
+        margin-top: 10%;
+        font-size: 30px ;
+    }
+    .skincare2 .serum button{
+        padding-top: 5px;
+        font-size: 15px;
+    }
+    .star{
+        margin-top: 20px;
+    }
+    
+}
+
+
+@media only screen and (max-width:1240px){
+    .col-lg-10 .ribbon3 ul {
+        margin: 0px;
+    }
+    .col-lg-10 .ribbon3 ul li{
+        margin-left: -10px;
+        
+    }
+}
+@media only screen and (max-width:1204px){
+    #r2 ul{
+        margin: 0px;
+    }
+    #r2 li button{
+        margin-left: -5px !important;
+    }
+        
+}
+
+@media only screen and (max-width:1199.20px){
+    .col-2 .about_company h4{
+        font-size: 12px;
+    }
+    .col-2 .About_LOOKFANTASTIC h4{
+        font-size: 12px;
+    }
+    .col-2 .Stores_and_Salons h4{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width:1191.20px){
+    #r2 ul{
+        margin: 0px;
+    }
+    #r2 li button{
+        margin-left: -2px !important;
+    }
+    .col-lg-10 .ribbon3 ul li h5 {
+        font-size: 15px;
+        padding-left: 15px;
+        background-color: none;
+    }
+    .image_wrap{
+        margin-top: 15px;
+    }
+    
+}
+
+@media only screen and (max-width:1167.40px){
+    .image_wrap{
+        margin-top: 35px;
+    }
+
+}
+@media only screen and (max-width:1122.40px){
+   
+    .img_typs .col-2 img{
+        margin: 0px;
+        width: 100px;
+        margin-left: 30px;
+    }
+    .img_typs .col-2 .varsac button{
+        height: 30px;
+    }
+    .img_typs .col-2 .brushes h6{
+        margin-top: -10px;
+    }
+}
+@media only screen and (max-width:1041.60px){
+    #r2 ul li{
+        margin-left: -10px;
+    }
+    
+    .img_typs .col-2 .serum p{
+        font-size: 15px;
+    }
+    .img_typs .col-2 .serum h2{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width:1035.20px){
+    #r2 ul li{
+        margin-left: -12px;
+    }
+
+}
+@media only screen and (max-width:1018.20px){
+    .img_typs .col-2 .serum h1{
+        font-size: 20px;
+    }
+    .img_typs .col-2 .serum h2{
+        margin-top: 10px !important;
+    }
+}
+@media only screen and (max-width:1024px){
+    .image_wrap{
+        margin-top: 95px;
+    }
+}
+
+@media only screen and (min-width:1008px){
+    #r2 ul li{
+        margin-left: -15px !important;
+    }
+    .image_wrap{
+        margin-top: 70px !important;
+    }
+}
+
+@media only screen and (min-width:1007.20px){
+    #r2 ul li{
+        margin-left: -15px !important;
+    }
+    
+}
+@media only screen and (min-width:1003.20px){
+    #r2 ul li{
+        margin-left: -14px !important;
+    }  
+}
+
+@media only screen and (min-width:1001.60px){
+    #r2 ul li{
+        margin-left: -14px !important;
+    }  
+}
+
+@media only screen and (min-width:999.40px){
+    #r2 ul li{
+        margin-left: -14px !important;
+    }  
+}
+
+@media only screen and (min-width:996px){
+    #r2 ul li{
+        margin-left: -14px !important;
+    }  
+}
+
+
+@media only screen and (min-width:991.20px){
+    #r2 ul li{
+        margin-left: -14px !important;
+    }  
+    .img_typs .col-2 .card_text h1{
+        font-size: 15px;
+    }
+
+    .img_typs .col-2 .card_text button{
+        align-items: center;
+    }
+    .img_typs .col-2 .varsac button b{
+        font-size: 10px;
+    }
+    .img_typs .col-2 .prewage h2,
+    .img_typs .col-2 .prewage button
+    {
+        align-items: center !important;
+        margin-left: 30px;
+    }
+    
+    .img_typs .col-2 .brushes h6{
+        margin-left: 30px;
+    }
+    .img_typs .col-2 .brushes center button{
+        margin:0px;
+    }
+    .img_typs .col-2 .brushes button{
+        margin-left: 30px;
+    }
+    .img_typs .col-2 .skincare_txt h1{
+        margin-left: 10px;
+    }
+    
+    .img_typs .col-2 .skincare_txt button{
+        margin-left: 20px;
+    }
+    
+    .img_typs .col-2 .skincare_txt p{
+        text-align: center;
+    }
+    .img_typs .col-2 .serum h1{
+        font-size: 25px;
+        text-align: center;
+    }
+    .img_typs .col-2 .serum p,
+    .img_typs .col-2 .serum h5
+    {
+        
+        text-align: center;
+    }
+    .img_typs .col-2 .serum h2,
+    .img_typs .col-2 .serum button
+    {
+        margin-left: 30px;    
+    }
+}
